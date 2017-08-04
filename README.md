@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ShimmerLayout-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5767)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.supercharge/shimmerlayout/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.supercharge/shimmerlayout)
-[![Android Weekly](http://img.shields.io/badge/Android%20Weekly-%23266-2CB3E5.svg?style=flat)](http://androidweekly.net/issues/issue-266) 
+[![Android Weekly](http://img.shields.io/badge/Android%20Weekly-%23266-2CB3E5.svg?style=flat)](http://androidweekly.net/issues/issue-266)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 # ShimmerLayout
 
@@ -12,7 +12,7 @@
 
 Get the latest artifact via gradle
 ```groovy
-compile 'io.supercharge:shimmerlayout:0.5.0'
+compile 'io.supercharge:shimmerlayout:0.8.0'
 ```
 
 Create the layout on which you want to apply the effect and add as a child of a `ShimmerLayout`
@@ -43,6 +43,10 @@ Last, but not least you have to start it from your Java code
 ShimmerLayout shimmerText = (ShimmerLayout) findViewById(R.id.shimmer_text);
 shimmerText.startShimmerAnimation();
 ```
+# Further reading
+
+* [The development of ShimmerLayout](https://medium.com/supercharges-mobile-product-guide/shimmerlayout-26978ab53c28)  - In this article you can read why we created this library and the technologies we used.
+
 # License
 
 `ShimmerLayout` is opensource, contribution and feedback are welcome!
